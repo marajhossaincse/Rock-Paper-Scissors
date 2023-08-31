@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct HomeView: View {
+    var optionList: [String] = ["Rock", "Paper", "Scissors"]
+
+    @State var systemPick: String
+    @State var result: Bool
+
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -23,7 +28,7 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            HomeView()
+//            HomeView()
         }
     }
 }
