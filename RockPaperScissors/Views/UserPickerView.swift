@@ -12,27 +12,34 @@ struct UserPickerItem: View {
 
     var body: some View {
         Button {} label: {
-            Text("🪨")
+            Text(label)
                 .font(.system(.headline, weight: .semibold))
-                .padding(25)
-                .border(.black)
+                .frame(width: 90, height: 90, alignment: .center)
+                .aspectRatio(1, contentMode: .fit)
+                .padding()
+                .overlay(
+                    Circle()
+                        .stroke(Color.black)
+                        .padding(6)
+                )
         }
     }
 }
 
 struct UserPickerView: View {
+    var optionList: [String]
+
     var body: some View {
         HStack {
-            ForEach(0 ... 2, id: \.self) { _ in
-                UserPickerItem(label: "object")
+            ForEach(optionList, id: \.self) { option in
+                UserPickerItem(label: option)
             }
-            .padding()
         }
     }
 }
 
 struct UserPickerView_Previews: PreviewProvider {
     static var previews: some View {
-        UserPickerView()
+        UserPickerView(optionList: ["item 1", "item 2", "item 3"])
     }
 }
