@@ -11,7 +11,6 @@
 		CEE7B1762A9F442600FAD784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE7B1752A9F442600FAD784 /* Assets.xcassets */; };
 		CEE7B1792A9F442600FAD784 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE7B1782A9F442600FAD784 /* Preview Assets.xcassets */; };
 		CEE7B1812A9F47BA00FAD784 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7B1802A9F47BA00FAD784 /* HomeView.swift */; };
-		CEE7B1832A9F486400FAD784 /* UserPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7B1822A9F486400FAD784 /* UserPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		CEE7B1752A9F442600FAD784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE7B1782A9F442600FAD784 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEE7B1802A9F47BA00FAD784 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		CEE7B1822A9F486400FAD784 /* UserPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				CEE7B1712A9F442400FAD784 /* RockPaperScissorsApp.swift */,
-				CEE7B17F2A9F467000FAD784 /* Views */,
+				CEE7B1802A9F47BA00FAD784 /* HomeView.swift */,
 				CEE7B1752A9F442600FAD784 /* Assets.xcassets */,
 				CEE7B1772A9F442600FAD784 /* Preview Content */,
 			);
@@ -67,15 +65,6 @@
 				CEE7B1782A9F442600FAD784 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		CEE7B17F2A9F467000FAD784 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				CEE7B1802A9F47BA00FAD784 /* HomeView.swift */,
-				CEE7B1822A9F486400FAD784 /* UserPickerView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +139,6 @@
 			files = (
 				CEE7B1722A9F442400FAD784 /* RockPaperScissorsApp.swift in Sources */,
 				CEE7B1812A9F47BA00FAD784 /* HomeView.swift in Sources */,
-				CEE7B1832A9F486400FAD784 /* UserPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

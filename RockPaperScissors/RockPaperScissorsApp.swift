@@ -12,7 +12,7 @@ struct RockPaperScissorsApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-//                HomeView()
+                HomeView()
             }
         }
     }
